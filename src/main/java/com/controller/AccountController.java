@@ -39,7 +39,7 @@ public class AccountController {
         if (count != 0){
             response.sendRedirect(request.getContextPath()+"/account/findAll");
         }else{
-            System.out.println("错误....");
+            System.out.println("错误......");
         }
         return ;
     }
